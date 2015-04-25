@@ -1,7 +1,7 @@
 language: go
 
 install:
-  - mkdir -p $HOME/gopath/src/gopkg.in
+  - mkdir -p $HOME/gopath/src/gopkg.in/sconf
   - mv $HOME/gopath/src/github.com/sconf/sconf $HOME/gopath/src/gopkg.in/sconf/sconf.v0
   - cd $HOME/gopath/src/gopkg.in/sconf/sconf.v0
   - go get
