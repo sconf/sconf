@@ -5,8 +5,8 @@
 package sconf // import "gopkg.in/sconf/sconf.v0"
 
 import (
-	"gopkg.in/sconf/internal.v0/internal_"
-	"gopkg.in/sconf/internal.v0/internal_/gcfg"
+	"gopkg.in/sconf/internal.v0/internal-"
+	"gopkg.in/sconf/internal.v0/internal-/gcfg"
 )
 
 func Must(ptr interface{}) internal.Struct {
